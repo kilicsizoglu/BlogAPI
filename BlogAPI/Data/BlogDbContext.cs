@@ -6,7 +6,7 @@ public class BlogDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost;Database=exam01;userid=sa;password=0900TGByhn.,!");
+        optionsBuilder.UseSqlServer("Server=localhost;Database=exam01;userid=sa;password=");
         base.OnConfiguring(optionsBuilder);
     }
 
